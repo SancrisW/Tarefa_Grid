@@ -1,0 +1,29 @@
+*{
+   margin: 0;
+}
+.banner4{/*oficina*/
+    height: 50px;
+    width: 100%;
+    /*width: 1248px;*/
+    background-color:rgb(47, 47, 47);
+    text-align: center;
+    color: white;
+   
+}
+.container{
+    display: grid;
+    background-color: rgb(177, 173, 173);
+    padding: 50px;
+    grid-template-columns: 250px 250px 250px 250px; /*definindo colunas*/
+    grid-auto-rows: 325px 325px 325px 325px;/*definindo linhas*/
+    gap: 49px;
+    text-align: center;
+    padding-top: 80px;  
+    /*width: 1148px;*/
+    width: 100%;
+}
+.item{
+    background-repeat: no-repeat;
+    background-color: rgb(243, 239, 239);
+    border-radius: 10px;
+}
